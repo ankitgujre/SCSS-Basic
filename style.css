@@ -10,6 +10,7 @@ html, body {
 }
 
 .blue {
+  /*Bydefault blue hota hai*/
   padding: 10px 10px;
   background-color: blue;
   color: whitesmoke;
@@ -22,8 +23,9 @@ html, body {
 }
 
 .red {
+  /*Bydefault blue hota hai*/
   padding: 10px 10px;
-  background-color: blue;
+  background-color: red;
   color: whitesmoke;
   border: none;
   border-radius: 7px;

@@ -8,9 +8,9 @@ html,body{
     width: 100%;
 }
 
-@mixin button-style($bg-color:blue){
+@mixin button-style($bg-color){    /*Bydefault blue hota hai*/
     padding: 10px 10px;
-    background-color: blue;
+    background-color:$bg-color;
     color: whitesmoke;
     border: none;
     border-radius: 7px;
@@ -21,11 +21,11 @@ html,body{
     
 }
 .blue{
-    @include button-style();
+    @include button-style(blue);
 }
 
 .red{
-    @include button-style();
+    @include button-style(red);
 }
 
 
