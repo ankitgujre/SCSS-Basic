@@ -10,27 +10,37 @@ html, body {
 }
 
 .blue {
-  /*Bydefault blue hota hai*/
   padding: 10px 10px;
   background-color: blue;
-  color: whitesmoke;
+  color: khaki;
   border: none;
   border-radius: 7px;
   outline: none;
   cursor: pointer;
   font-size: 19px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .red {
-  /*Bydefault blue hota hai*/
   padding: 10px 10px;
   background-color: red;
-  color: whitesmoke;
+  color: purple;
   border: none;
   border-radius: 7px;
   outline: none;
   cursor: pointer;
   font-size: 19px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@mixin button-style($bg-color:blue, $text-color:green){    /*Bydefault blue hota hai*/
+    padding: 10px 10px;
+    background-color:$bg-color;
+    color: $text-color;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    font-size: 19px;
+    display: flex;
+    
+}
