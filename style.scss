@@ -8,28 +8,24 @@ html,body{
     width: 100%;
 }
 
-@mixin flexCenter(){
+@mixin button-style($bg-color:blue){
+    padding: 10px 10px;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    font-size: 19px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
-main{
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    @include flexCenter();
+.blue{
+    @include button-style();
+}
 
-    section{
-        height: 50%;
-        width: 50%;
-        background-color: whitesmoke;
-        @include flexCenter();
-
-        h1{
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-        }
-    }
+.red{
+    @include button-style();
 }
 
 
